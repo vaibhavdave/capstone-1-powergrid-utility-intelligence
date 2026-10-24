@@ -1,0 +1,20 @@
+# Generated data files - recreated by running the pipeline
+data/processed/
+
+# Duplicate raw data in documents folder
+documents/PowerGrid_Utility_Intelligence.csv
+
+# Random Forest model - 60MB, not the selected model
+models/random_forest.pkl
+
+# Generated prediction outputs
+outputs/predictions.csv
+outputs/asset_risk_scores.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
